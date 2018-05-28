@@ -12630,11 +12630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nickl\\Source\\Repos\\Katagalugan\\Wikain\\Wikain\\Wikain.csproj",
+      "projectUniqueName": "C:\\Users\\Nickl\\Source\\repos\\Katagalugan\\Wikain\\Wikain\\Wikain.csproj",
       "projectName": "Wikain",
-      "projectPath": "C:\\Users\\Nickl\\Source\\Repos\\Katagalugan\\Wikain\\Wikain\\Wikain.csproj",
+      "projectPath": "C:\\Users\\Nickl\\Source\\repos\\Katagalugan\\Wikain\\Wikain\\Wikain.csproj",
       "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nickl\\Source\\Repos\\Katagalugan\\Wikain\\Wikain\\obj\\",
+      "outputPath": "C:\\Users\\Nickl\\Source\\repos\\Katagalugan\\Wikain\\Wikain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Wikain.Models;
+using Wikain.Service;
 
 namespace Wikain.Controllers
 {
@@ -32,6 +33,10 @@ namespace Wikain.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult RandomWord()
+        {
+            return Content(WordProvider.GetWord());
         }
     }
 }

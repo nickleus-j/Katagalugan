@@ -2,16 +2,41 @@
     ViewData["Title"] = "Katagalugan";
 }
 
-
-<div class="row jumbotron">
+<hr/>
+<div class="row ">
     <div class="col-sm-6 col-sm-offset-2 ">
-        <h1>Tagalog nasalita</h1>
+        <a class="btn btn-primary getWord" onclick="GetWord()">Pakita ng halimbawa(Random Tagalog Words)</a>
     </div>
-    <div class="col-sm-4">
-        <a class="btn btn-primary">Pakita ng halimbawa</a>
+    <div class="col-sm-2">
+        <a class="btn btn-default getWord" onclick='$("fieldset div").empty()'>Buharin lahat(Clear)</a>
     </div>
 </div>
-
+<hr />
+<fieldset class="word-collection">
+    <legend>Sapalang Tagalog na salita</legend>
+</fieldset>
 <div class="row">
+    <div class="col-xs-10">
 
+    </div>
+    <div class="col-xs-2">
+
+    </div>
 </div>
+<script>
+    function GetWord() {
+        $.post("/Home/RandomWord", {  }, function (data) {
+            var item = $("<div></div>");
+            if (data != undefined) {
+                var itemText = $("<h2></h2>").text(data);
+                //item.addClass("col-md-4");
+                //item.append($("#QrHere").html());
+                item.append(itemText);
+                //item.attr("onclick", "createQrPrompt('" + currentText + "')");
+
+                $(".word-collection").prepend(item);
+            }
+        });
+
+    }
+</script>
