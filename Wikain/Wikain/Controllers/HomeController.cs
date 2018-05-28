@@ -36,7 +36,8 @@ namespace Wikain.Controllers
         }
         public IActionResult RandomWord()
         {
-            return Content(WordProvider.GetWord());
+            try { return Content(WordProvider.GetWord()); }
+            catch { return Content(@"Resource/Tagalog.txt"); }
         }
     }
 }
