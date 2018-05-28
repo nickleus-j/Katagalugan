@@ -10,7 +10,7 @@ namespace Wikain.Service
     {
         public static string GetWord()
         {
-            string[] lines = File.ReadAllLines("Resource\\Tagalog.txt"); //i hope that the file is not too big
+            string[] lines = File.ReadAllLines(@"Resource/Tagalog.txt"); //i hope that the file is not too big
             Random rand = new Random();
             return lines[rand.Next(lines.Length)];
         }
