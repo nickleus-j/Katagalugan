@@ -10,3 +10,4 @@ C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Wi
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.dll
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.pdb
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Resource\Tagalog.txt

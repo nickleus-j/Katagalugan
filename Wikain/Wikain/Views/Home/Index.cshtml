@@ -29,10 +29,7 @@
             var item = $("<div></div>");
             if (data != undefined) {
                 var itemText = $("<h2></h2>").text(data);
-                //item.addClass("col-md-4");
-                //item.append($("#QrHere").html());
                 item.append(itemText);
-                //item.attr("onclick", "createQrPrompt('" + currentText + "')");
 
                 $(".word-collection").prepend(item);
             }
