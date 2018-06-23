@@ -2,7 +2,6 @@ C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Wi
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Wikain.runtimeconfig.json
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Wikain.runtimeconfig.dev.json
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Wikain.dll
-C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.csprojResolveAssemblyReference.cache
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.csproj.CoreCompileInputs.cache
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.AssemblyInfoInputs.cache
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.AssemblyInfo.cs
@@ -11,3 +10,4 @@ C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Us
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.dll
 C:\Users\Nickl\Source\Repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.pdb
 C:\Users\Nickl\Source\repos\Katagalugan\Wikain\Wikain\bin\Debug\netcoreapp2.0\Resource\Tagalog.txt
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\Wikain\obj\Debug\netcoreapp2.0\Wikain.csprojAssemblyReference.cache

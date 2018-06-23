@@ -5,6 +5,17 @@
 nav.navbar {
     background: #0d47a1;
 }
+footer .navbar-right {
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    background: rgba(15,15,15,.65);
+    padding:8px;
+}
+    footer .navbar-right a {
+        color: #dcdbdc;
+        font-size:110%;
+    }
 .navbar-nav > li > a, nav.navbar a {
     color: #dcdeec;
 }
