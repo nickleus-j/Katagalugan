@@ -29,7 +29,10 @@ footer .navbar-right {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.word-collection h2{
+    display:inline-block;
+    margin-right:10px;
+}
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;

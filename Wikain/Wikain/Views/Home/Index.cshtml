@@ -28,12 +28,27 @@
         $.post("/Home/RandomWord", {  }, function (data) {
             var item = $("<div></div>");
             if (data != undefined) {
-                var itemText = $("<h2></h2>").text(data);
+                var itemText = $("<h2></h2>").text(data), itemId = makeId(8), closeLink = $("<a class='glyphicon glyphicon-remove'></a>");
+                item.attr("id", itemId);
                 item.append(itemText);
-
-                $(".word-collection").prepend(item);
+                closeLink.attr("onclick", "RemoveElement('.word-collection','#" + itemId + "')");
+                item.append(closeLink);
+               $(".word-collection").prepend(item);
             }
         });
 
+    }
+    function RemoveElement(containerSelctor, elem) {
+        $(elem).addClass("hidden");
+
+    }
+    function makeId(length) {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for (var i = 0; i < length; i++)
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
     }
 </script>
