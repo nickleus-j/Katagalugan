@@ -33,6 +33,9 @@ footer .navbar-right {
     display:inline-block;
     margin-right:10px;
 }
+.word-collection a {
+    margin-left:5px;
+}
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
