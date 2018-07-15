@@ -4,8 +4,44 @@
              xmlns:local="clr-namespace:Tagalugan"
              x:Class="Tagalugan.MainPage">
 
-	<Label Text="Mabuhay!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0">TCP Address</Label>
+        <Editor x:Name="tcpAddrBox"  Grid.Row="0" Grid.Column="1"></Editor>
+
+        <Label Grid.Row="0" Grid.Column="3">TCP Port</Label>
+        <Editor x:Name="tcpPortBox"  Grid.Row="0" Grid.Column="4"></Editor>
+        
+        <Editor x:Name="RcvdBox"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False"></Editor>
+
+        <Label Grid.Row="2" Grid.Column="0">Message</Label>
+        <Editor x:Name="MsgBox"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Editor>
+        <Button Grid.Row="2" Grid.Column="3" Text="Send"></Button>
+        
+        <TableView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
+            <TableView.Root>
+                <TableSection Title="Privacy">
+                    <SwitchCell Text="Allow Spamming" />
+                    <SwitchCell Text="Track Location" On="True" />
+                </TableSection>
+                <TableSection Title="Performance">
+                    <SwitchCell Text="Run Super-Fast" On="True" />
+                    <SwitchCell Text="Cache Data Locally" />
+                    <SwitchCell Text="Steal Clock Cycles" />
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+    </Grid>
 
 </ContentPage>
