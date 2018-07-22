@@ -13,11 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tagalugan.UWP", "Tagalugan\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tagalugan", "Tagalugan\Tagalugan\Tagalugan.shproj", "{64DA8AA7-5BF2-4B6F-A640-7ECAE171C65A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A94C5C1B-5C8E-4639-A294-0C20070698EA}"
-	ProjectSection(SolutionItems) = preProject
-		ResTempl1.rct = ResTempl1.rct
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tagalugan\Tagalugan\Tagalugan.projitems*{2e5da7fc-3d2f-41ea-869e-c50101eb459e}*SharedItemsImports = 4

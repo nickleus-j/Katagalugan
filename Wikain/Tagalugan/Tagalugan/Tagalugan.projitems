@@ -20,4 +20,10 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)AppDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
 </Project>

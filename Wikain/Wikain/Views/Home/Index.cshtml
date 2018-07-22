@@ -7,6 +7,11 @@
     </h1>
 </div>
 <hr/>
+<div class="row SampleWord">
+    <div class="col-sm-6 col-sm-offset-4 ">
+        <h1></h1>
+    </div>
+</div>
 <div class="row ">
     <div class="col-sm-6 col-sm-offset-2 ">
         <a class="btn btn-primary getWord" onclick="GetWord()">Pakita ng halimbawa(Random Tagalog Words)</a>
@@ -40,7 +45,8 @@
                 item.append(translateLink);
                 closeLink.attr("onclick", "RemoveElement('.word-collection','#" + itemId + "')");
                 item.append(closeLink);
-               $(".word-collection").prepend(item);
+                $(".word-collection").prepend(item);
+                $(".SampleWord h1").text(data);
             }
         });
 
