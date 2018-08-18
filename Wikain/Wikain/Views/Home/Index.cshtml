@@ -41,7 +41,8 @@
                 var translateLink = $("<a class='glyphicon glyphicon-book' target='_blank'></a>");
                 item.attr("id", itemId);
                 item.append(itemText);
-                translateLink.attr("href", "https://translate.google.com/#tl/en/" + data);
+                //translateLink.attr("href", "https://translate.google.com/#tl/en/" + data);
+                translateLink.attr("href", "https://tagalog.pinoydictionary.com/word/" + data);
                 item.append(translateLink);
                 closeLink.attr("onclick", "RemoveElement('.word-collection','#" + itemId + "')");
                 item.append(closeLink);
