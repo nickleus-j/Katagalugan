@@ -12,6 +12,9 @@
     <div class="col-sm-6 col-sm-offset-4 ">
         <h1></h1>
     </div>
+    <div class="col-sm-2 define">
+
+    </div>
 </div>
 <div class="row ">
     <div class="col-sm-6 col-sm-offset-2 ">
@@ -30,14 +33,15 @@
 
     </div>
     <div class="col-xs-2">
-        <sub>Para sa Katalugan</sub>
+        <select id="History"></select>
+        <a class="btn">Ibig sabihin</a>
     </div>
 </div>
 <script>
     function GetWord() {
         $.post("/Home/RandomWord", {  }, function (data) {
             var item = $("<div></div>");
-            if (data != undefined) {
+            if (data !== undefined) {
                 var itemText = $("<h2></h2>").text(data), itemId = makeId(8), closeLink = $("<a class='glyphicon glyphicon-remove'></a>");
                 var translateLink = $("<a class='glyphicon glyphicon-book' target='_blank'></a>");
                 item.attr("id", itemId);
@@ -48,13 +52,20 @@
                 closeLink.attr("onclick", "RemoveElement('.word-collection','#" + itemId + "')");
                 item.append(closeLink);
                 $(".word-collection").prepend(item);
+                $("select#History").prepend($("<option></option>").text(data));
                 $(".SampleWord h1").text(data);
             }
         });
 
     }
+    function define(word) {
+        $.post("https://tagalog.pinoydictionary.com/word/" + word, {}, function (data) {
+            var defineElement = $(data).next(".definition");
+            $(".define").text(defineElement.next("p").text());
+        });
+    }
     function english(word) {
-        window.URL ="https://translate.google.com/#tl/en/"+word
+        window.URL = "https://translate.google.com/#tl/en/" + word;
 
     }
 </script>

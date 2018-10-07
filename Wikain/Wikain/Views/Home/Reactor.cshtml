@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Reactor";
+}
+
+<h2>Reactor</h2>
+
+<div>
+    <h1>React</h1>
+    <form name="myForm">
+        <input type="radio" name="r3" onchange="react('haha')" onclick="react('haha')" value="hehe" /><label>Haha</label>
+        <input type="radio" name="r3" onchange="react('jazz')" onclick="react('jClick')"  value="1"/><label>Jazz</label>
+        <input type="radio" name="r3" onchange="react('Reap')" onclick="react('reap touch')"  value="rfre" /><label>Reap</label>
+    </form>
+    
+</div>
+<script>
+    function react(text) {
+        $("h1").text(react);
+    }
+    var rad = document.myForm.r3;
+    var prev = null;
+    for (var i = 0; i < rad.length; i++) {
+        rad[i].onclick = function () {
+            $("h1").text(this.value);
+        };
+    }
+</script>

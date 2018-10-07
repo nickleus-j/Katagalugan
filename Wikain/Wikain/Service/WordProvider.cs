@@ -8,9 +8,13 @@ namespace Wikain.Service
 {
     public class WordProvider
     {
-        public static string GetWord()
+        /// <summary>
+        /// Gets random word from Word Source
+        /// </summary>
+        /// <returns></returns>
+        public static string GetWord(string src= @"Resource/Tagalog.txt")
         {
-            string[] lines = File.ReadAllLines(@"Resource/Tagalog.txt"); //i hope that the file is not too big
+            string[] lines = File.ReadAllLines(src); //i hope that the file is not too big
             Random rand = new Random();
             return lines[rand.Next(lines.Length)];
         }
