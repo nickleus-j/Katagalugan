@@ -8,8 +8,11 @@ namespace katagaluganAPI.DAL
     public class DiksyonaryoContext
     {
         public string ConnectionString { get; set; }
-
-        private MySqlConnection GetConnection()
+        public DiksyonaryoContext(string _connectionString)
+        {
+            ConnectionString = _connectionString;
+        }
+        public MySqlConnection GetConnection()
         {
             return new MySqlConnection(ConnectionString);
         }
