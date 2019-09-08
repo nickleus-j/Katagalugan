@@ -19,5 +19,12 @@ namespace katagaluganAPI.Controllers
             WordEntityMysql wordDal = new WordEntityMysql(context);
             return wordDal.GetRandomWord();
         }
+        [HttpGet("{keyword}")]
+        public ActionResult<IEnumerable<string>> Get(string keyword)
+        {
+            DiksyonaryoContext context = HttpContext.RequestServices.GetService(typeof(katagaluganAPI.DAL.DiksyonaryoContext)) as DiksyonaryoContext;
+            WordEntityMysql wordDal = new WordEntityMysql(context);
+            return wordDal.FindWord(keyword).ToArray();
+        }
     }
 }

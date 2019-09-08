@@ -33,5 +33,25 @@ namespace katagaluganAPI.DAL.mysql
             }
             return result;
         }
+        public IList<string> FindWord(string keyword)
+        {
+            List<string> result = new List<string>();
+            using (MySqlConnection conn = Context.GetConnection())
+            {
+                conn.Open();
+                string command = @"SELECT * FROM diksyonaryo.words
+                        WHERE word LIKE CONCAT('%',@find,'%');";
+                MySqlCommand cmd = new MySqlCommand(command, conn);
+                cmd.Parameters.AddWithValue("@find", keyword);
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        result.Add(reader["word"].ToString());
+                    }
+                }
+            }
+            return result;
+        }
     }
 }
