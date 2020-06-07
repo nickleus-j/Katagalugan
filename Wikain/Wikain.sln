@@ -13,13 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tagalugan.UWP", "Tagalugan\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tagalugan", "Tagalugan\Tagalugan\Tagalugan.shproj", "{64DA8AA7-5BF2-4B6F-A640-7ECAE171C65A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "katagaluganAPI", "katagaluganAPI\katagaluganAPI.csproj", "{E0BCD1CB-11F9-4A26-82AF-56A437358548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "katagaluganAPI", "katagaluganAPI\katagaluganAPI.csproj", "{E0BCD1CB-11F9-4A26-82AF-56A437358548}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tagalugan\Tagalugan\Tagalugan.projitems*{2e5da7fc-3d2f-41ea-869e-c50101eb459e}*SharedItemsImports = 4
 		Tagalugan\Tagalugan\Tagalugan.projitems*{64da8aa7-5bf2-4b6f-a640-7ecae171c65a}*SharedItemsImports = 13
 		Tagalugan\Tagalugan\Tagalugan.projitems*{c0745cca-32d9-4aba-a4b0-f02c3eee4dcf}*SharedItemsImports = 4
+		Tagalugan\Tagalugan\Tagalugan.projitems*{e1b44041-5e0d-4eda-a695-3a97e5611982}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

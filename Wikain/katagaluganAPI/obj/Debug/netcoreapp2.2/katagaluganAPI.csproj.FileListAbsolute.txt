@@ -1,0 +1,14 @@
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\bin\Debug\netcoreapp2.2\katagaluganAPI.deps.json
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\bin\Debug\netcoreapp2.2\katagaluganAPI.runtimeconfig.json
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\bin\Debug\netcoreapp2.2\katagaluganAPI.runtimeconfig.dev.json
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\bin\Debug\netcoreapp2.2\katagaluganAPI.dll
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.csprojAssemblyReference.cache
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.csproj.CoreCompileInputs.cache
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.RazorAssemblyInfo.cache
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.RazorAssemblyInfo.cs
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.AssemblyInfoInputs.cache
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.AssemblyInfo.cs
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\bin\Debug\netcoreapp2.2\katagaluganAPI.pdb
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.dll
+C:\Users\Nickl\Source\repos\Katagalugan\Wikain\katagaluganAPI\obj\Debug\netcoreapp2.2\katagaluganAPI.pdb
